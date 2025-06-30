@@ -8,6 +8,9 @@ git status
 #staging area -> In the staging area the file or folder or new changes are waiting for the commit
 git add requirement.txt
 
+#add . -> it is used to add the all changes going to the staging path
+git add .
+
 #save the changes of the files 
 # m -> message
 git commit -m "Add requirement.txt" 

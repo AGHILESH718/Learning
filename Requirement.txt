@@ -1,2 +1,19 @@
 #used to clone the repository(repo)
 git clone https://github.com/AGHILESH718/Learning.git
+
+#view the status of the file or repo
+git status
+
+#add the file in the staging area
+#staging area -> In the staging area the file or folder or new changes are waiting for the commit
+git add requirement.txt
+
+#save the changes of the files 
+# m -> message
+git commit -m "Add requirement.txt" 
+
+# adding the updates in the local machine storage
+# push the updates to the branch
+# main -> branch name
+git push origin main
+

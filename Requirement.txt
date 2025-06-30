@@ -20,3 +20,6 @@ git commit -m "Add requirement.txt"
 # main -> branch name
 git push origin main
 
+# pull the datas in the main file
+git pull
+
